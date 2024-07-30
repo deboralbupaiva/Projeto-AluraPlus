@@ -34,6 +34,7 @@ body {
 }
 
 .container__botao{
+    
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
@@ -86,12 +87,31 @@ body {
     color: var(--cinza-secundario);
 }
 
-.secundario__botao{
+.secundario__botao {
     display: inline-block;
     margin-top: 1em;
 }
 
-.container__descricao{
+.container__descricao {
     padding: 2em;
 
+}
+
+.dispositivo__lista {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dispositivo {
+    text-align: center;
+}
+
+.dispositivo__titulo {
+   font-size: 48px;
+}
+
+.lita__item {
+   font-size: 32px;
+   color: var(--branco-principal);
 }
